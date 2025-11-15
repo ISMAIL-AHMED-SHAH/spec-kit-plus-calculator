@@ -17,8 +17,8 @@
 
 **Purpose**: Project initialization and basic structure
 
-- [ ] T001 Create project structure per implementation plan (`src/calculator`, `tests/unit`, `tests/integration`).
-- [ ] T002 Initialize `pytest` configuration in `pytest.ini`.
+- [x] T001 Create project structure per implementation plan (`src/calculator`, `tests/unit`, `tests/integration`).
+- [x] T002 Initialize `pytest` configuration in `pytest.ini`.
 
 ---
 
@@ -26,10 +26,10 @@
 
 **Purpose**: Core infrastructure that MUST be complete before ANY user story can be implemented
 
-- [ ] T003 Create `src/calculator/__init__.py`.
-- [ ] T004 Create `src/calculator/operations.py` with placeholder functions for `add`, `subtract`, `multiply`, `divide`.
-- [ ] T005 Create `src/calculator/cli.py` with placeholder for CLI logic.
-- [ ] T006 Create `src/main.py` as the entry point for the CLI.
+- [x] T003 Create `src/calculator/__init__.py`.
+- [x] T004 Create `src/calculator/operations.py` with placeholder functions for `add`, `subtract`, `multiply`, `divide`.
+- [x] T005 Create `src/calculator/cli.py` with placeholder for CLI logic.
+- [x] T006 Create `src/main.py` as the entry point for the CLI.
 
 **Checkpoint**: Foundation ready - user story implementation can now begin.
 
@@ -45,12 +45,12 @@
 
 > **NOTE: Write these tests FIRST, ensure they FAIL before implementation**
 
-- [ ] T007 [US1] Write unit tests for `add` function in `tests/unit/test_operations.py`.
+- [x] T007 [US1] Write unit tests for `add` function in `tests/unit/test_operations.py`.
 
 ### Implementation for User Story 1
 
-- [ ] T008 [US1] Implement `add` function in `src/calculator/operations.py`.
-- [ ] T009 [US1] Refactor `add` function and tests.
+- [x] T008 [US1] Implement `add` function in `src/calculator/operations.py`.
+- [x] T009 [US1] Refactor `add` function and tests.
 
 **Checkpoint**: At this point, User Story 1 should be fully functional and testable independently.
 
@@ -64,12 +64,12 @@
 
 ### Tests for User Story 2 ⚠️
 
-- [ ] T010 [US2] Write unit tests for `subtract` function in `tests/unit/test_operations.py`.
+- [x] T010 [US2] Write unit tests for `subtract` function in `tests/unit/test_operations.py`.
 
 ### Implementation for User Story 2
 
-- [ ] T011 [US2] Implement `subtract` function in `src/calculator/operations.py`.
-- [ ] T012 [US2] Refactor `subtract` function and tests.
+- [x] T011 [US2] Implement `subtract` function in `src/calculator/operations.py`.
+- [x] T012 [US2] Refactor `subtract` function and tests.
 
 **Checkpoint**: At this point, User Stories 1 AND 2 should both work independently.
 
@@ -83,12 +83,12 @@
 
 ### Tests for User Story 3 ⚠️
 
-- [ ] T013 [US3] Write unit tests for `multiply` function in `tests/unit/test_operations.py`.
+- [x] T013 [US3] Write unit tests for `multiply` function in `tests/unit/test_operations.py`.
 
 ### Implementation for User Story 3
 
-- [ ] T014 [US3] Implement `multiply` function in `src/calculator/operations.py`.
-- [ ] T015 [US3] Refactor `multiply` function and tests.
+- [x] T014 [US3] Implement `multiply` function in `src/calculator/operations.py`.
+- [x] T015 [US3] Refactor `multiply` function and tests.
 
 **Checkpoint**: All user stories should now be independently functional.
 
@@ -102,12 +102,12 @@
 
 ### Tests for User Story 4 ⚠️
 
-- [ ] T016 [US4] Write unit tests for `divide` function in `tests/unit/test_operations.py`, including division by zero.
+- [x] T016 [US4] Write unit tests for `divide` function in `tests/unit/test_operations.py`, including division by zero.
 
 ### Implementation for User Story 4
 
-- [ ] T017 [US4] Implement `divide` function in `src/calculator/operations.py`.
-- [ ] T018 [US4] Refactor `divide` function and tests.
+- [x] T017 [US4] Implement `divide` function in `src/calculator/operations.py`.
+- [x] T018 [US4] Refactor `divide` function and tests.
 
 ---
 
@@ -115,8 +115,8 @@
 
 **Purpose**: Connect the calculator operations to the command-line interface.
 
-- [ ] T019 Implement CLI logic in `src/calculator/cli.py` to call the operations.
-- [ ] T020 Write integration tests for the CLI in `tests/integration/test_cli.py`.
+- [x] T019 Implement CLI logic in `src/calculator/cli.py` to call the operations.
+- [x] T020 Write integration tests for the CLI in `tests/integration/test_cli.py`.
 
 ---
 
@@ -124,9 +124,9 @@
 
 **Purpose**: Improvements that affect multiple user stories.
 
-- [ ] T021 Add docstrings and type hints to all functions.
-- [ ] T022 Run `mypy` for static analysis and fix any issues.
-- [ ] T023 Run `pytest --cov` to ensure 100% test coverage.
+- [x] T021 Add docstrings and type hints to all functions.
+- [x] T022 Run `mypy` for static analysis and fix any issues.
+- [x] T023 Run `pytest --cov` to ensure 100% test coverage.
 
 ---
 
